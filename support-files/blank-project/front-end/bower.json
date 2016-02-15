@@ -1,0 +1,13 @@
+{
+  "name": "my-app",
+  "dependencies": {
+    "boilerplate": "*",
+    "normalize.css": "~3.0.2",
+    "jquery": "1.11",
+    "jqueryui": "1.11",
+    "bootstrap": "~3.3.2"
+  },
+  "devDependencies": {
+    "less": "~2.4.0"
+  }
+}
