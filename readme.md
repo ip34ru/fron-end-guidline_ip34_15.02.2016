@@ -38,15 +38,22 @@
 
    Строго Запрещается использование конструкций вида:
 
-   `.block1 {
+   ```css
+   .block1 {
        &__elem1 { color: #042; }
-    }
-    .block2 {
+   }
+   .block2 {
        &__elem2 { color: #042; }
-    }`
+   }
+   ```
+
+
 
    Нужно писать селекторы только полностью: 
-   
-   `.block1__elem1 { color: #042; }
-    .block2__elem2 { color: #042; }`
+
+   ```css
+   .block1__elem1 { color: #042; }
+   .block2__elem2 { color: #042; }
+   ```
+
 
